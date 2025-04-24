@@ -1,0 +1,38 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 2rem;
+  color: #222;
+}
+.container {
+  max-width: 650px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+}
+input[type="range"], input[type="number"], select {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+label {
+  display: block;
+  margin: 1rem 0 0.25rem;
+  font-weight: 600;
+}
+.result {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.warning {
+  color: red;
+  font-weight: bold;
+}
+.logo {
+  max-width: 160px;
+  margin-bottom: 1rem;
+}
